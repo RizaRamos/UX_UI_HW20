@@ -1,0 +1,60 @@
+
+
+.card {
+    background-color: rgb(11, 66, 99);
+    color: rgb(243, 243, 243);
+    text-align: center;
+    
+}
+
+.task-flow-img {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+ 
+}
+
+
+
+.cardimage {
+    background-color: rgb(255, 255, 255);
+    width: 1200;
+    
+}
+
+.sketch-img {
+    width: 100%;
+    max-width: 900px;
+    height: auto;  
+}
+
+.hero-image {
+    background-image: url('./C:\Users\Rizalene Ramos\Documents\GitHub\UX_UI_HW20\Images\Jpg-Hero.jpg');
+    width: 200px;
+    height: 200px;
+    
+}
+
+.hero {
+    position: relative;
+    background: url('./Images/Hero\ Page_Case\ Study.png') center center / cover no-repeat;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  .hero-content {
+    position: relative;
+    z-index: 2; 
+}
